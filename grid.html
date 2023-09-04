@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="grid.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+</head>
+<style>
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+<body>
+    <section class="card-container">
+        <article class="card">
+            <header class="card__title">
+                <h1> Rex Cat  </h1>
+            </header>
+            <figure class="card__umbnailth">
+                <img src="https://images.pexels.com/photos/12759635/pexels-photo-12759635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+        
+                The Devon Rex is an active, energetic breed. She is truly a little clown and will delight her parent by giving enchanting playful performances.
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+        <article class="card">
+            <header class="card__title">
+                <h1> British Shorthairs </h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/11354981/pexels-photo-11354981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+                British are friendly, if not overly affectionate. They aren't inclined to cuddle because their thick fur makes close contact feel too warm. 
+            </main>
+            <a href="#" class="button">Click me</a>
+
+   
+    
+        </article>
+        <article class="card">
+            <header class="card__title">
+                <h1> Norwegian Forest </h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/7335644/pexels-photo-7335644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+                They are sweet, gentle and a little shy around new people – but also very friendly and sociable after you win their trust. 
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+        <article class="card">
+            <header class="card__title">
+                <h1> Sphynx </h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/991831/pexels-photo-991831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+                Sphynx cats are sociable, playful, and entertaining pets. They love spending time with people and enjoy the company of other pets, including dogs.
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+        <article class="card">
+            <header class="card__title">
+                <h1>Maine Coon</h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/1475260/pexels-photo-1475260.jpeg">
+            </figure>
+            <main class="card__description">
+                They're not only huge in size but also huge in personality. Much like a dog, the Maine Coon loves to be around its family and sometimes acts like a pack animal.  
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+        <article class="card">
+            <header class="card__title">
+                <h1> Siamese Cat </h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/5200916/pexels-photo-5200916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+                Incredibly intelligent, affectionate and opinionated, they are considered the extroverts of the feline world. Inclined to bond strongly to one person, and often very vocal with a loud, low-pitched voice.
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+        <article class="card">
+            <header class="card__title">
+                <h1> Ragdoll </h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/9602963/pexels-photo-9602963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+                Ragdoll are known to be gentle, calm and sociable. Affectionate without being demanding, They have an almost dog-like devotion to their owners.
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+
+        <article class="card">
+            <header class="card__title">
+                <h1> Abyssinian cat </h1>
+            </header>
+            <figure class="card__thumbnail">
+                <img src="https://images.pexels.com/photos/10409730/pexels-photo-10409730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </figure>
+            <main class="card__description">
+              While this medium-sized cat is very social, its adaptable temperament and playful nature allow it to find fun in tackling toys or racing up and down stairs (or scratching posts) all by itself.
+            </main>
+            <a href="#" class="button">Click me</a>
+    
+        </article>
+    
+    </section>
+</body>
+</html>
